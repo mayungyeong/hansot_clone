@@ -1,8 +1,13 @@
-import Main from "./Main";
+import React from "react";
+import Router from "./routes";
+// import Main from "./pages/Main";
 
 function App() {
   return (
-    <Main />
+    <div>
+      <Router/>
+      {/* <Main/> */}
+    </div>
   );
 }
 
